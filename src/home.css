@@ -1,0 +1,6 @@
+.home__section{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(230px,1fr));
+    grid-gap: 20px;
+}

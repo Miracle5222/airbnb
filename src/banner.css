@@ -1,7 +1,47 @@
 .banner{
-    background: url("https://images.pexels.com/photos/547114/pexels-photo-547114.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+    background: url("./banner.jpg");
     height: 50vh;
     background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+}
+
+.banner__info{
+    background-color: rgba(0, 0, 0, 0.582);
+    color: white;
+    padding-top: 10vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    width: 300px;
+}
+.banner__search{
+    display: flex;
+    flex-direction: column;
+
+}
+.banner__searchButton{
+    background-color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color: #ff7779 !important;
+}
+
+.banner__info > button{
+    background-color: #ff006a;
+    color: white;
+    text-transform: inherit;
+    margin-top: 20px;
+    font-weight: 600;
+    transition: .2s;
+}
+.banner__info > button:hover{
+    background-color:  white;
+    color: #ff006a;
+   
+}
+
+.banner__info > h5{
+    margin-top: 10px;
 }
